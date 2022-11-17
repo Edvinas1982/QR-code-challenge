@@ -1,0 +1,27 @@
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.container {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.QR-code-box {
+    text-align: center;
+    background: white;
+    border-radius: 25px;
+    padding: 30px 10px;
+    margin: auto;
+    height: screen;
+    height: 45em;
+    margin-top: 60px;
+    width: 620px;
+}
+.QR-img {
+    border-radius: 25px;
+}
+p {
+    font-size: 15px;
+    font-weight: 400;
+    color: hsl(220, 15%, 55%);
+}
