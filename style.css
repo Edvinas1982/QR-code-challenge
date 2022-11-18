@@ -1,5 +1,6 @@
 body {
     background-color: hsl(212, 45%, 89%);
+    font-family: 'Space Grotesk', sans-serif;
 }
 .container {
     width: 100%;
@@ -9,19 +10,27 @@ body {
 .QR-code-box {
     text-align: center;
     background: white;
-    border-radius: 25px;
-    padding: 30px 10px;
+    border-radius: 15px;
+    padding: 13px 10px;
     margin: auto;
-    height: screen;
-    height: 45em;
-    margin-top: 60px;
-    width: 620px;
+    height: 33em;
+    margin-top: 180px;
+    width: 335px;
 }
 .QR-img {
-    border-radius: 25px;
+    border-radius: 15px;
+    width: 330px;
+}
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-weight: 700;
 }
 p {
     font-size: 15px;
     font-weight: 400;
     color: hsl(220, 15%, 55%);
+    padding: 0 20px;
+}
+.attribution {
+    margin-top: 160px;
 }
